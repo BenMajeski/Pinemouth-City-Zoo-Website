@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Website</title>
+    <link rel="stylesheet" href="zoo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Pinemouth City Zoo</div>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#animals">Animals</a></li>
+                <li><a href="#tickets">Tickets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Pinemouth City Zoo!</h1>
+        <p>Come for a fun filled day of action, adventure and learning</p>
+        <button onclick="scrollToSection('tickets')">Buy Tickets</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Pinemout City Zoo is home to hundereds of unique and rare animal exibits, come and meet some of them for yourself! Our mission is to educate, conserve, and inspire.</p>
+    </section>
+    <!--
+
+    <section id="animals">
+        <h2>Meet Our Animals</h2>
+        <div class="animal-grid">
+            <div class="animal-card">
+                <img src="lion.jpg" alt="Lion">
+                <h3>Lion</h3>
+                <p>The king of the jungle, known for its majestic mane and powerful roar.</p>
+            </div>
+            <div class="animal-card">
+                <img src="elephant.jpg" alt="Elephant">
+                <h3>Elephant</h3>
+                <p>Gentle giants who are among the most intelligent animals on Earth.</p>
+            </div>
+            
+        </div>
+    </section>
+-->
+
+    <section id="tickets">
+        <h2>Buy Tickets</h2>
+        <p>Book your tickets online and skip the line!</p>
+        <button>Get Tickets</button>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pinemouth zoology inc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
